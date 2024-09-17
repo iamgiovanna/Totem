@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaTotem", "SistemaTotem\SistemaTotem.csproj", "{BCCE9A74-9944-41A2-BD71-690AA35BBC7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCCE9A74-9944-41A2-BD71-690AA35BBC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCE9A74-9944-41A2-BD71-690AA35BBC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCE9A74-9944-41A2-BD71-690AA35BBC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCE9A74-9944-41A2-BD71-690AA35BBC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {721B3B27-BB5F-4F9C-B16B-69A1316C0A39}
+	EndGlobalSection
+EndGlobal
