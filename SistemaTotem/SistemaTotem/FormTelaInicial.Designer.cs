@@ -46,10 +46,11 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(-4, -1);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(2063, 57);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1566, 57);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // BtnEventos
@@ -130,7 +131,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label1.Location = new System.Drawing.Point(-257, 303);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(909, 174);
+            this.label1.Size = new System.Drawing.Size(898, 168);
             this.label1.TabIndex = 6;
             this.label1.Text = "                                           Bem Vindo ao \r\n                       " +
     "                 Totem Informativo \r\n                                       ETEC" +

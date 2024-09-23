@@ -52,19 +52,46 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMapaEtec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMapaEtec.Designer.cs">
+      <DependentUpon>FormMapaEtec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSecretaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSecretaria.Designer.cs">
+      <DependentUpon>FormSecretaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTelaInicial.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormTelaInicial.Designer.cs">
       <DependentUpon>FormTelaInicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormVestibulares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVestibulares.Designer.cs">
+      <DependentUpon>FormVestibulares.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMapaEtec.resx">
+      <DependentUpon>FormMapaEtec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSecretaria.resx">
+      <DependentUpon>FormSecretaria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormTelaInicial.resx">
       <DependentUpon>FormTelaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVestibulares.resx">
+      <DependentUpon>FormVestibulares.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
