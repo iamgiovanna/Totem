@@ -64,6 +64,12 @@
     <Compile Include="FormMapaEtec.Designer.cs">
       <DependentUpon>FormMapaEtec.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMembrosGremio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMembrosGremio.Designer.cs">
+      <DependentUpon>FormMembrosGremio.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSecretaria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMapaEtec.resx">
       <DependentUpon>FormMapaEtec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMembrosGremio.resx">
+      <DependentUpon>FormMembrosGremio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSecretaria.resx">
       <DependentUpon>FormSecretaria.cs</DependentUpon>
