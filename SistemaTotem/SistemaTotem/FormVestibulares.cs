@@ -21,5 +21,30 @@ namespace SistemaTotem
         {
 
         }
+
+        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnVest4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnVest3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
