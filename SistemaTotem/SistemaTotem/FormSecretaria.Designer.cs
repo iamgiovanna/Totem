@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSecretaria));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.BtnVoltar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,7 +42,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.PainelControleSecretaria = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.BtnVoltar = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.PainelControleSecretaria.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -58,6 +58,20 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1295, 52);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
+            // BtnVoltar
+            // 
+            this.BtnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.BtnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnVoltar.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVoltar.ForeColor = System.Drawing.Color.White;
+            this.BtnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVoltar.Image")));
+            this.BtnVoltar.Location = new System.Drawing.Point(4, 4);
+            this.BtnVoltar.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnVoltar.Name = "BtnVoltar";
+            this.BtnVoltar.Size = new System.Drawing.Size(172, 48);
+            this.BtnVoltar.TabIndex = 5;
+            this.BtnVoltar.UseVisualStyleBackColor = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -65,7 +79,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(104, 88);
+            this.label1.Location = new System.Drawing.Point(570, 76);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(188, 41);
@@ -203,20 +217,6 @@
             this.panel1.Size = new System.Drawing.Size(1128, 438);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // BtnVoltar
-            // 
-            this.BtnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.BtnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnVoltar.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnVoltar.ForeColor = System.Drawing.Color.White;
-            this.BtnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVoltar.Image")));
-            this.BtnVoltar.Location = new System.Drawing.Point(4, 4);
-            this.BtnVoltar.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnVoltar.Name = "BtnVoltar";
-            this.BtnVoltar.Size = new System.Drawing.Size(172, 48);
-            this.BtnVoltar.TabIndex = 5;
-            this.BtnVoltar.UseVisualStyleBackColor = false;
             // 
             // FormSecretaria
             // 
