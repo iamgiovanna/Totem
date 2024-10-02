@@ -107,6 +107,9 @@
             // 
             this.BoxUsu.BackColor = System.Drawing.SystemColors.ControlLight;
             this.BoxUsu.FormattingEnabled = true;
+            this.BoxUsu.Items.AddRange(new object[] {
+            "Membro Grêmio",
+            "Funcionário Secretária"});
             this.BoxUsu.Location = new System.Drawing.Point(666, 180);
             this.BoxUsu.Name = "BoxUsu";
             this.BoxUsu.Size = new System.Drawing.Size(259, 21);

@@ -46,5 +46,15 @@ namespace SistemaTotem
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnVest1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

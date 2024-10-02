@@ -76,5 +76,10 @@ namespace SistemaTotem
         {
 
         }
+
+        private void BtnVoltar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -42,7 +42,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.PainelControleSecretaria = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1.SuspendLayout();
             this.PainelControleSecretaria.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -50,7 +49,6 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
-            this.flowLayoutPanel1.Controls.Add(this.BtnVoltar);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
@@ -65,12 +63,13 @@
             this.BtnVoltar.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVoltar.ForeColor = System.Drawing.Color.White;
             this.BtnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVoltar.Image")));
-            this.BtnVoltar.Location = new System.Drawing.Point(4, 4);
+            this.BtnVoltar.Location = new System.Drawing.Point(26, 609);
             this.BtnVoltar.Margin = new System.Windows.Forms.Padding(4);
             this.BtnVoltar.Name = "BtnVoltar";
-            this.BtnVoltar.Size = new System.Drawing.Size(172, 48);
+            this.BtnVoltar.Size = new System.Drawing.Size(39, 39);
             this.BtnVoltar.TabIndex = 5;
             this.BtnVoltar.UseVisualStyleBackColor = false;
+            this.BtnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
             // 
             // label1
             // 
@@ -224,6 +223,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1295, 661);
+            this.Controls.Add(this.BtnVoltar);
             this.Controls.Add(this.PainelControleSecretaria);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.flowLayoutPanel1);
@@ -232,7 +232,6 @@
             this.Name = "FormSecretaria";
             this.Text = " ";
             this.Load += new System.EventHandler(this.FormSecretaria_Load);
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.PainelControleSecretaria.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

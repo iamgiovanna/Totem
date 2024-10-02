@@ -55,8 +55,9 @@ namespace SistemaTotem
         private void LoginBtn_Click(object sender, EventArgs e)
         {
             //evento botão login
-            MessageBox.Show("Acesso Liberado!");
-            Form1 FormTelaInicial = new Form1();
+            FormTelaInicial FormTI = new FormTelaInicial();  
+            FormTI.Show();
+            this.Hide();
 
         }
  
