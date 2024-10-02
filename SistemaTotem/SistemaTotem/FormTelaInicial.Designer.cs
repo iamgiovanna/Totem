@@ -48,8 +48,9 @@
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1174, 46);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1565, 57);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // BtnEventos
@@ -58,9 +59,10 @@
             this.BtnEventos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEventos.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEventos.ForeColor = System.Drawing.Color.White;
-            this.BtnEventos.Location = new System.Drawing.Point(858, 366);
+            this.BtnEventos.Location = new System.Drawing.Point(1144, 450);
+            this.BtnEventos.Margin = new System.Windows.Forms.Padding(4);
             this.BtnEventos.Name = "BtnEventos";
-            this.BtnEventos.Size = new System.Drawing.Size(197, 46);
+            this.BtnEventos.Size = new System.Drawing.Size(263, 57);
             this.BtnEventos.TabIndex = 1;
             this.BtnEventos.Text = "Eventos";
             this.BtnEventos.UseVisualStyleBackColor = false;
@@ -73,9 +75,10 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(622, 208);
+            this.button1.Location = new System.Drawing.Point(829, 256);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(197, 46);
+            this.button1.Size = new System.Drawing.Size(263, 57);
             this.button1.TabIndex = 2;
             this.button1.UseVisualStyleBackColor = false;
             // 
@@ -85,9 +88,10 @@
             this.BtnGremio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnGremio.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnGremio.ForeColor = System.Drawing.Color.White;
-            this.BtnGremio.Location = new System.Drawing.Point(622, 261);
+            this.BtnGremio.Location = new System.Drawing.Point(829, 321);
+            this.BtnGremio.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGremio.Name = "BtnGremio";
-            this.BtnGremio.Size = new System.Drawing.Size(197, 46);
+            this.BtnGremio.Size = new System.Drawing.Size(263, 57);
             this.BtnGremio.TabIndex = 3;
             this.BtnGremio.Text = "Grêmio";
             this.BtnGremio.UseVisualStyleBackColor = false;
@@ -98,12 +102,14 @@
             this.BtnMapa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMapa.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMapa.ForeColor = System.Drawing.Color.White;
-            this.BtnMapa.Location = new System.Drawing.Point(622, 366);
+            this.BtnMapa.Location = new System.Drawing.Point(829, 450);
+            this.BtnMapa.Margin = new System.Windows.Forms.Padding(4);
             this.BtnMapa.Name = "BtnMapa";
-            this.BtnMapa.Size = new System.Drawing.Size(197, 46);
+            this.BtnMapa.Size = new System.Drawing.Size(263, 57);
             this.BtnMapa.TabIndex = 4;
             this.BtnMapa.Text = "Mapa - Etec";
             this.BtnMapa.UseVisualStyleBackColor = false;
+            this.BtnMapa.Click += new System.EventHandler(this.BtnMapa_Click);
             // 
             // BtnVestibular
             // 
@@ -111,9 +117,10 @@
             this.BtnVestibular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnVestibular.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVestibular.ForeColor = System.Drawing.Color.White;
-            this.BtnVestibular.Location = new System.Drawing.Point(858, 261);
+            this.BtnVestibular.Location = new System.Drawing.Point(1144, 321);
+            this.BtnVestibular.Margin = new System.Windows.Forms.Padding(4);
             this.BtnVestibular.Name = "BtnVestibular";
-            this.BtnVestibular.Size = new System.Drawing.Size(197, 46);
+            this.BtnVestibular.Size = new System.Drawing.Size(263, 57);
             this.BtnVestibular.TabIndex = 5;
             this.BtnVestibular.Text = "Vestibulares";
             this.BtnVestibular.UseVisualStyleBackColor = false;
@@ -123,10 +130,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft New Tai Lue", 25.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(-213, 222);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(-284, 273);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(743, 138);
+            this.label1.Size = new System.Drawing.Size(898, 168);
             this.label1.TabIndex = 6;
             this.label1.Text = "                                           Bem Vindo ao \r\n                       " +
     "                 Totem Informativo \r\n                                       ETEC" +
@@ -137,9 +143,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(283, 427);
+            this.pictureBox2.Location = new System.Drawing.Point(377, 526);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(68, 58);
+            this.pictureBox2.Size = new System.Drawing.Size(91, 71);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
@@ -151,9 +158,10 @@
             this.BtnSecretaria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSecretaria.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSecretaria.ForeColor = System.Drawing.Color.White;
-            this.BtnSecretaria.Location = new System.Drawing.Point(622, 314);
+            this.BtnSecretaria.Location = new System.Drawing.Point(829, 386);
+            this.BtnSecretaria.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSecretaria.Name = "BtnSecretaria";
-            this.BtnSecretaria.Size = new System.Drawing.Size(197, 46);
+            this.BtnSecretaria.Size = new System.Drawing.Size(263, 57);
             this.BtnSecretaria.TabIndex = 8;
             this.BtnSecretaria.Text = "Secretária";
             this.BtnSecretaria.UseVisualStyleBackColor = false;
@@ -164,9 +172,10 @@
             this.BtnHorario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnHorario.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnHorario.ForeColor = System.Drawing.Color.White;
-            this.BtnHorario.Location = new System.Drawing.Point(858, 314);
+            this.BtnHorario.Location = new System.Drawing.Point(1144, 386);
+            this.BtnHorario.Margin = new System.Windows.Forms.Padding(4);
             this.BtnHorario.Name = "BtnHorario";
-            this.BtnHorario.Size = new System.Drawing.Size(197, 46);
+            this.BtnHorario.Size = new System.Drawing.Size(263, 57);
             this.BtnHorario.TabIndex = 9;
             this.BtnHorario.Text = "Horários";
             this.BtnHorario.UseVisualStyleBackColor = false;
@@ -177,9 +186,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(858, 208);
+            this.button2.Location = new System.Drawing.Point(1144, 256);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(197, 46);
+            this.button2.Size = new System.Drawing.Size(263, 57);
             this.button2.TabIndex = 10;
             this.button2.Text = "Denúncia";
             this.button2.UseVisualStyleBackColor = false;
@@ -187,11 +197,11 @@
             // 
             // FormTelaInicial
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1174, 625);
+            this.ClientSize = new System.Drawing.Size(1565, 769);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.BtnHorario);
             this.Controls.Add(this.BtnSecretaria);
@@ -204,6 +214,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormTelaInicial";
             this.Load += new System.EventHandler(this.FormTelaInicial_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

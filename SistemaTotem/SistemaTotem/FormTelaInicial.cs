@@ -51,5 +51,13 @@ namespace SistemaTotem
         {
 
         }
+
+        private void BtnMapa_Click(object sender, EventArgs e)
+        {
+            //evento mapa 
+            FormMapaEtec FormME = new FormMapaEtec();
+            FormME.Show();
+            this.Hide();
+        }
     }
 }
