@@ -88,6 +88,18 @@
     <Compile Include="FormTelaInicial.Designer.cs">
       <DependentUpon>FormTelaInicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormVest1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVest1.Designer.cs">
+      <DependentUpon>FormVest1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVest4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVest4.Designer.cs">
+      <DependentUpon>FormVest4.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormVestibulares.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +128,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTelaInicial.resx">
       <DependentUpon>FormTelaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVest1.resx">
+      <DependentUpon>FormVest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVest4.resx">
+      <DependentUpon>FormVest4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormVestibulares.resx">
       <DependentUpon>FormVestibulares.cs</DependentUpon>
