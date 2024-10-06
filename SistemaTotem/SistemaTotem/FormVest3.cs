@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace SistemaTotem
 {
-    public partial class FormVest1 : Form
+    public partial class FormVest3 : Form
     {
-        public FormVest1()
+        public FormVest3()
         {
             InitializeComponent();
-        }
-
-        private void FormVest1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

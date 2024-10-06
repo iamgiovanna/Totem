@@ -94,6 +94,12 @@
     <Compile Include="FormVest1.Designer.cs">
       <DependentUpon>FormVest1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormVest3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVest3.Designer.cs">
+      <DependentUpon>FormVest3.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormVest4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormVest1.resx">
       <DependentUpon>FormVest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVest3.resx">
+      <DependentUpon>FormVest3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormVest4.resx">
       <DependentUpon>FormVest4.cs</DependentUpon>
