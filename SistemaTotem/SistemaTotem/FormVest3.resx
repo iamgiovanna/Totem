@@ -117,4 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Provas da 3ª série do Ensino Médio: 30 e 31 de outubro de 2024
+Provas das 1ª e 2ª séries do Ensino Médio: 11 e 12 de novembro de 2024
+Publicação do gabarito das provas no portal da Fundação Vunesp: 09 de dezembro de 2024
+Divulgação do desempenho do estudante e da classificação prévia: 09 de janeiro de 2025
+Período de recursos contra o desempenho e a classificação: 09 e 10 de janeiro de 2025
+
+1ª lista de chamada unificada para ingresso no 1ºsemestre de 2025: 20 de janeiro (previsão)
+2ª lista de chamada unificada para ingresso no 1ºsemestre de 2025: 27 de janeiro (previsão)
+
+3ª lista de chamada unificada para ingresso no 1ºsemestre de 2025: 03 de fevereiro (previsão)
+
+Divulgação das vagas dos cursos de graduação do 2º semestre de 2025: março
+
+1ª lista de chamada unificada para ingresso no 2º semestre de 2025: abril (previsão)</value>
+  </data>
 </root>
