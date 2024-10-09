@@ -117,16 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Calendário vestibular Fuvest 2025
+  <data name="InfoCalendarioFuvest.Text" xml:space="preserve">
+    <value>Inscrições Fuvest 2025: 19/08 a 08/10/2024.
 
-Inscrições Fuvest 2025: 19/08 a 08/10/2024
-Data final para pagamento da taxa de inscrição: 08/10/2024
-1ª Fase Fuvest 2025: 17/11/2024
-2ª Fase Fuvest 2025: 15/12 e 16/12/2024
-Provas de competências específicas: entre 09/12/2024 e
-10/01/2025, a depender da carreira
-Divulgação do resultado da FUVEST: 24/01/2025
+Data final para pagamento da taxa de inscrição:
+08/10/2024.
+
+1ª e 2ª Fase Fuvest 2025:
+17 de novembro e 15 e 16 de dezembro.
+
+Provas de competências específicas:
+Entre 09/12/2024 e10/01/2025, a depender da carreira.
+
+Divulgação do resultado da FUVEST:
+24/01/2025.
+
 Para mais informações, acesse o site.</value>
   </data>
 </root>
