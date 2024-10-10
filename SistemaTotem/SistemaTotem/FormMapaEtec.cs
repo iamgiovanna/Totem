@@ -36,5 +36,13 @@ namespace SistemaTotem
         {
 
         }
+
+        private void BtnVoltar_Click(object sender, EventArgs e)
+        {
+            //EVENTO para voltar a tela inicial
+            FormTelaInicial formTelaInicial = new FormTelaInicial();
+            formTelaInicial.Show();
+            this.Hide();
+        }
     }
 }

@@ -59,5 +59,13 @@ namespace SistemaTotem
             FormME.Show();
             this.Hide();
         }
+
+        private void BtnVestibular_Click(object sender, EventArgs e)
+        {
+            //evento vestibular
+            FormVestibulares FormVE = new FormVestibulares();   
+            FormVE.Show();
+            this.Hide();
+        }
     }
 }

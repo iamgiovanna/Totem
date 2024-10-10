@@ -57,14 +57,15 @@
             this.BtnVoltar.Size = new System.Drawing.Size(65, 61);
             this.BtnVoltar.TabIndex = 4;
             this.BtnVoltar.UseVisualStyleBackColor = false;
+            this.BtnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1482, 61);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1482, 66);
             this.flowLayoutPanel1.TabIndex = 5;
             // 
             // FormMapaEtec
@@ -73,8 +74,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1482, 707);
-            this.Controls.Add(this.BtnVoltar);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.BtnVoltar);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;

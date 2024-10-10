@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormVest1));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.SiteInfoOfficial = new System.Windows.Forms.Label();
+            this.labelTitle = new System.Windows.Forms.Label();
+            this.InfoCalendarioFuvest = new System.Windows.Forms.Label();
+            this.SubTituloFuvest = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -41,64 +43,82 @@
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
             this.flowLayoutPanel1.Controls.Add(this.panel1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(118, 58);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(40, 32);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(535, 358);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(942, 533);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Controls.Add(this.InfoCalendarioFuvest);
+            this.panel1.Controls.Add(this.SubTituloFuvest);
+            this.panel1.Controls.Add(this.labelTitle);
+            this.panel1.Controls.Add(this.SiteInfoOfficial);
+            this.panel1.Location = new System.Drawing.Point(4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(532, 355);
+            this.panel1.Size = new System.Drawing.Size(938, 529);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // label3
+            // SiteInfoOfficial
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(26, 100);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.SiteInfoOfficial.BackColor = System.Drawing.Color.FloralWhite;
+            this.SiteInfoOfficial.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SiteInfoOfficial.Location = new System.Drawing.Point(283, 450);
+            this.SiteInfoOfficial.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.SiteInfoOfficial.Name = "SiteInfoOfficial";
+            this.SiteInfoOfficial.Size = new System.Drawing.Size(354, 40);
+            this.SiteInfoOfficial.TabIndex = 2;
+            this.SiteInfoOfficial.Text = "Para mais informaçõoes, acesse o site oficial: www.gov.br";
+            this.SiteInfoOfficial.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.SiteInfoOfficial.Click += new System.EventHandler(this.SiteInfoOfficial_Click);
             // 
-            // label2
+            // labelTitle
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(247, 111);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(176, 208);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "24/06/2024 a  28/06/2024\r\n\r\n05/07/2024\r\n\r\n03 e 10/11/2024\r\n\r\n11/11/2024 a 15/11/2" +
-    "024\r\n\r\n10 e 11/12/2024\r\n\r\n20/11/2024\r\n\r\n13/01/2025";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.labelTitle.AutoSize = true;
+            this.labelTitle.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.labelTitle.Location = new System.Drawing.Point(380, 23);
+            this.labelTitle.Name = "labelTitle";
+            this.labelTitle.Size = new System.Drawing.Size(102, 35);
+            this.labelTitle.TabIndex = 3;
+            this.labelTitle.Text = "ENEM";
             // 
-            // label1
+            // InfoCalendarioFuvest
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(225, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ENEM";
+            this.InfoCalendarioFuvest.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.InfoCalendarioFuvest.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InfoCalendarioFuvest.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.InfoCalendarioFuvest.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.InfoCalendarioFuvest.Location = new System.Drawing.Point(184, 116);
+            this.InfoCalendarioFuvest.Name = "InfoCalendarioFuvest";
+            this.InfoCalendarioFuvest.Size = new System.Drawing.Size(521, 314);
+            this.InfoCalendarioFuvest.TabIndex = 5;
+            this.InfoCalendarioFuvest.Text = resources.GetString("InfoCalendarioFuvest.Text");
+            this.InfoCalendarioFuvest.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // SubTituloFuvest
+            // 
+            this.SubTituloFuvest.AutoSize = true;
+            this.SubTituloFuvest.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SubTituloFuvest.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SubTituloFuvest.Location = new System.Drawing.Point(280, 73);
+            this.SubTituloFuvest.Name = "SubTituloFuvest";
+            this.SubTituloFuvest.Size = new System.Drawing.Size(317, 31);
+            this.SubTituloFuvest.TabIndex = 4;
+            this.SubTituloFuvest.Text = "Calendário ENEM 2024\r\n";
             // 
             // FormVest1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(763, 483);
+            this.ClientSize = new System.Drawing.Size(1017, 594);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormVest1";
             this.Text = "Enem";
             this.Load += new System.EventHandler(this.FormVest1_Load);
@@ -113,8 +133,9 @@
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label SiteInfoOfficial;
+        private System.Windows.Forms.Label labelTitle;
+        private System.Windows.Forms.Label InfoCalendarioFuvest;
+        private System.Windows.Forms.Label SubTituloFuvest;
     }
 }

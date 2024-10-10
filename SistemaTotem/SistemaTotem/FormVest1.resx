@@ -117,4 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="InfoCalendarioFuvest.Text" xml:space="preserve">
+    <value>Inscrições ENEM 2024: 27/05 a 14/06/2024.
+
+Data para o pagamento da taxa de inscrição:
+27/05 a 19/06/2024.
+
+Data de aplicação da prova:
+03 e 10/11/2024.
+
+Solicitação de reaplicação da prova:
+11/11 a 15/11/2024
+
+Reaplicação das provas:
+10 e 11/12/2024.
+
+DIvulgação do gabarito e do resultado:
+Dias 20/11/2024 e 13/01/2025</value>
+  </data>
 </root>

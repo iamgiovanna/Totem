@@ -26,5 +26,15 @@ namespace SistemaTotem
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void SiteInfoOfficial_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

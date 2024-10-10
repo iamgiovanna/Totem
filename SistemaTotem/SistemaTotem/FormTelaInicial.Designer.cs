@@ -124,6 +124,7 @@
             this.BtnVestibular.TabIndex = 5;
             this.BtnVestibular.Text = "Vestibulares";
             this.BtnVestibular.UseVisualStyleBackColor = false;
+            this.BtnVestibular.Click += new System.EventHandler(this.BtnVestibular_Click);
             // 
             // label1
             // 
