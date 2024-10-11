@@ -29,7 +29,11 @@ namespace SistemaTotem
 
         private void BtnHome_Click(object sender, EventArgs e)
         {
+            //EVENTO DA PÁGINAS EVENTOS SKSKSKSKS
 
+            FormEventos formEventos = new FormEventos();
+            formEventos.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -49,6 +53,10 @@ namespace SistemaTotem
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //EVENTO DENUNCIA
+            FormDenuncia  formDenuncia = new FormDenuncia();
+            formDenuncia.Show();
+            this.Hide();
 
         }
 
@@ -66,6 +74,22 @@ namespace SistemaTotem
             FormVestibulares FormVE = new FormVestibulares();   
             FormVE.Show();
             this.Hide();
+        }
+
+        private void BtnSecretaria_Click(object sender, EventArgs e)
+        {
+            //evento secretária
+            FormSecretaria formSecretaria = new FormSecretaria();
+            formSecretaria.Show();
+            this.Hide();
+        }
+
+        private void BtnGremio_Click(object sender, EventArgs e)
+        {
+            FormMembrosGremio formMembrosGremio = new FormMembrosGremio();
+            formMembrosGremio.Show();
+            this.Hide();
+
         }
     }
 }

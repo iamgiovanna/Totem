@@ -21,5 +21,23 @@ namespace SistemaTotem
         {
 
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void BtnVoltar_Click(object sender, EventArgs e)
+        {
+            //EVENTO para voltar a tela inicial
+            FormTelaInicial formTelaInicial = new FormTelaInicial();
+            formTelaInicial.Show();
+            this.Hide();
+        }
     }
 }
