@@ -32,17 +32,17 @@ namespace SistemaTotem
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void BtnVoltar_Click(object sender, EventArgs e)
         {
             //EVENTO para voltar a tela inicial
             FormTelaInicial formTelaInicial = new FormTelaInicial();
             formTelaInicial.Show();
             this.Hide();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

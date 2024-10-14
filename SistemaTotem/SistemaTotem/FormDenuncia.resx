@@ -126,21 +126,20 @@
         sHbx59dn5bpOAB33F27mKmq6lC5GBmxHVtoESQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>"Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit,
- sed do eiusmod tempor incididunt
- ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, 
-quis nostrud exercitation
- ullamco laboris nisi 
-ut aliquip ex ea commodo consequat. 
-Duis aute irure dolor in reprehenderit 
-in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-Excepteur sint occaecat cupidatat non proident, sunt in cul
-pa qui officia deserunt mollit anim id est laborum."</value>
+  <data name="LabelDenuncia3.Text" xml:space="preserve">
+    <value>Se não se sentir bem de falar sobre com algum responsável da escola ou os seus pais,
+conte para um amigo(a) que se sinta acolhido e peça o apoio dele(a) para levar isso até a direção.
+Caso não resolva, faça um b.o. na delegacia mais próxima, caso seja necessário. 
+Não feche os olhos somente para manter as coisas 'em paz', faça o que é certo para que a SUA paz não seja mais uma vítima.</value>
   </data>
-  <data name="btntelainical.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="LabelDenuncia2.Text" xml:space="preserve">
+    <value>Lembre-se de contar para alguém caso se sinta confortável de faze-lo.
+Estamos falando sobre o seu problema e pelo que está passando agora. Imagino que seja muito delicado e muitas vezes denconfortável falar sobre, então o faça quando se sentir o melhor possível para falar sobre isso.</value>
+  </data>
+  <data name="LabelDenuncia1.Text" xml:space="preserve">
+    <value>Primeiro, faça a denúncia apenas com alguém que se sinta confortável de conversar sobre. Sabemos o quão difícil pode ser se abrir com alguém que você confia, mas é bom saber que você não está sozinho(a) nessa luta</value>
+  </data>
+  <data name="BtnTelaInicial.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DAAACwwBP0AiyAAAAH5JREFUSEvt1iEOgDAQRNFeggbufxIMBIICwXGW2TKCoDBTRPcna7biJRVNUxR9

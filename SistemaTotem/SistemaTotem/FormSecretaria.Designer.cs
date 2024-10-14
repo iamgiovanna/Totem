@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSecretaria));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnVoltar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -42,8 +41,13 @@
             this.label9 = new System.Windows.Forms.Label();
             this.PainelControleSecretaria = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
             this.PainelControleSecretaria.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -51,9 +55,9 @@
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1295, 52);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1609, 64);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // BtnVoltar
@@ -63,27 +67,13 @@
             this.BtnVoltar.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVoltar.ForeColor = System.Drawing.Color.White;
             this.BtnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVoltar.Image")));
-            this.BtnVoltar.Location = new System.Drawing.Point(36, 594);
-            this.BtnVoltar.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnVoltar.Location = new System.Drawing.Point(33, 701);
+            this.BtnVoltar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.BtnVoltar.Name = "BtnVoltar";
-            this.BtnVoltar.Size = new System.Drawing.Size(39, 39);
+            this.BtnVoltar.Size = new System.Drawing.Size(52, 48);
             this.BtnVoltar.TabIndex = 5;
             this.BtnVoltar.UseVisualStyleBackColor = false;
             this.BtnVoltar.Click += new System.EventHandler(this.BtnVoltar_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(557, 76);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(188, 41);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Secretária";
             // 
             // label2
             // 
@@ -91,10 +81,9 @@
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(517, 36);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(664, 46);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 31);
+            this.label2.Size = new System.Drawing.Size(147, 38);
             this.label2.TabIndex = 2;
             this.label2.Text = "Horários ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -106,10 +95,9 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(150, 87);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(200, 107);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(259, 25);
+            this.label3.Size = new System.Drawing.Size(318, 31);
             this.label3.TabIndex = 3;
             this.label3.Text = "Atendimento ao público";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -120,9 +108,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(57, 155);
+            this.label5.Location = new System.Drawing.Point(62, 169);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(202, 125);
+            this.label5.Size = new System.Drawing.Size(246, 155);
             this.label5.TabIndex = 5;
             this.label5.Text = "Segunda - Feira   \r\n\r\nQuarta - Feira\r\n\r\nSexta - Feira";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -132,9 +121,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(320, 155);
+            this.label6.Location = new System.Drawing.Point(384, 169);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(181, 125);
+            this.label6.Size = new System.Drawing.Size(221, 155);
             this.label6.TabIndex = 6;
             this.label6.Text = "08h ás 09h30\r\n\r\n14h30 ás 15h30\r\n\r\n19h30 ás 20h30\r\n";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -144,9 +134,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(750, 87);
+            this.label4.Location = new System.Drawing.Point(932, 95);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(241, 25);
+            this.label4.Size = new System.Drawing.Size(296, 31);
             this.label4.TabIndex = 8;
             this.label4.Text = "Atendimento ao aluno";
             this.label4.Click += new System.EventHandler(this.label4_Click_1);
@@ -156,9 +147,10 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(787, 155);
+            this.label8.Location = new System.Drawing.Point(993, 169);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(181, 125);
+            this.label8.Size = new System.Drawing.Size(221, 155);
             this.label8.TabIndex = 9;
             this.label8.Text = "09h40 ás 10h30\r\n\r\n15h30 ás 16h00\r\n\r\n20h40 ás 21h10\r\n";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -168,9 +160,10 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(41, 329);
+            this.label7.Location = new System.Drawing.Point(48, 390);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(507, 48);
+            this.label7.Size = new System.Drawing.Size(618, 60);
             this.label7.TabIndex = 7;
             this.label7.Text = "Observação:\r\n\r\nO atendimento ao público é feito no guichê ao lado do estacionamen" +
     "to!!!\r\n";
@@ -182,9 +175,10 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label9.Location = new System.Drawing.Point(637, 329);
+            this.label9.Location = new System.Drawing.Point(828, 390);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(457, 48);
+            this.label9.Size = new System.Drawing.Size(558, 60);
             this.label9.TabIndex = 10;
             this.label9.Text = "Observação:\r\n\r\nO atendimento ao aluno é feito durante todos os dias da semana!\r\n";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -196,9 +190,10 @@
             this.PainelControleSecretaria.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PainelControleSecretaria.Controls.Add(this.panel1);
             this.PainelControleSecretaria.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.PainelControleSecretaria.Location = new System.Drawing.Point(73, 134);
+            this.PainelControleSecretaria.Location = new System.Drawing.Point(85, 187);
+            this.PainelControleSecretaria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PainelControleSecretaria.Name = "PainelControleSecretaria";
-            this.PainelControleSecretaria.Size = new System.Drawing.Size(1132, 442);
+            this.PainelControleSecretaria.Size = new System.Drawing.Size(1482, 477);
             this.PainelControleSecretaria.TabIndex = 11;
             // 
             // panel1
@@ -211,39 +206,73 @@
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label7);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1106, 425);
+            this.panel1.Size = new System.Drawing.Size(1475, 468);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
+            this.flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.flowLayoutPanel2.Controls.Add(this.panel2);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(585, 80);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(495, 80);
+            this.flowLayoutPanel2.TabIndex = 12;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Location = new System.Drawing.Point(4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(489, 74);
+            this.panel2.TabIndex = 0;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label10.Location = new System.Drawing.Point(144, 14);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(182, 39);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Secretaria";
+            // 
             // FormSecretaria
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1295, 661);
+            this.ClientSize = new System.Drawing.Size(1609, 764);
+            this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.BtnVoltar);
             this.Controls.Add(this.PainelControleSecretaria);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormSecretaria";
             this.Text = " ";
             this.Load += new System.EventHandler(this.FormSecretaria_Load);
             this.PainelControleSecretaria.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
@@ -255,5 +284,8 @@
         private System.Windows.Forms.FlowLayoutPanel PainelControleSecretaria;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button BtnVoltar;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label10;
     }
 }
