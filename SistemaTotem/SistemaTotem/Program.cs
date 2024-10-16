@@ -16,7 +16,7 @@ namespace SistemaTotem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1()); //primeiro form aberto pelo usuário
+            Application.Run(new FormTelaInicial()); //primeiro form aberto pelo usuário
         }
     }
 }

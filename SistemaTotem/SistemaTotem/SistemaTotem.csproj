@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormEvento1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvento1.Designer.cs">
+      <DependentUpon>FormEvento1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +63,42 @@
     </Compile>
     <Compile Include="FormDenuncia.Designer.cs">
       <DependentUpon>FormDenuncia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEvento2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvento2.Designer.cs">
+      <DependentUpon>FormEvento2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEvento3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvento3.Designer.cs">
+      <DependentUpon>FormEvento3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEvento4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvento4.Designer.cs">
+      <DependentUpon>FormEvento4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEvento5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvento5.Designer.cs">
+      <DependentUpon>FormEvento5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEvento6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvento6.Designer.cs">
+      <DependentUpon>FormEvento6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEvento7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEvento7.Designer.cs">
+      <DependentUpon>FormEvento7.cs</DependentUpon>
     </Compile>
     <Compile Include="FormEventos.cs">
       <SubType>Form</SubType>
@@ -119,6 +161,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDenuncia.resx">
       <DependentUpon>FormDenuncia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEvento1.resx">
+      <DependentUpon>FormEvento1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEvento2.resx">
+      <DependentUpon>FormEvento2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEvento3.resx">
+      <DependentUpon>FormEvento3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEvento4.resx">
+      <DependentUpon>FormEvento4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEvento5.resx">
+      <DependentUpon>FormEvento5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEvento6.resx">
+      <DependentUpon>FormEvento6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEvento7.resx">
+      <DependentUpon>FormEvento7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormEventos.resx">
       <DependentUpon>FormEventos.cs</DependentUpon>

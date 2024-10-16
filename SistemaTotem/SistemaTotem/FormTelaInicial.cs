@@ -87,5 +87,10 @@ namespace SistemaTotem
             this.Hide();
 
         }
+
+        private void PainelTelaInicial_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

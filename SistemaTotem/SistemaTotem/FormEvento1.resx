@@ -117,22 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="InfoENEM.Text" xml:space="preserve">
-    <value>Inscrições ENEM 2024: 27/05 a 14/06/2024.
-
-Data para o pagamento da taxa de inscrição:
-27/05 a 19/06/2024.
-
-Data de aplicação da prova:
-03 e 10/11/2024.
-
-Solicitação de reaplicação da prova:
-11/11 a 15/11/2024
-
-Reaplicação das provas:
-10 e 11/12/2024.
-
-DIvulgação do gabarito e do resultado:
-Dias 20/11/2024 e 13/01/2025</value>
+  <data name="InfoEvento.Text" xml:space="preserve">
+    <value>INFORMAÇÕES O EVENTO:
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+ sunt in culpa qui officia deserunt mollit anim id est laborum."</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnTelaInicial.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAH5JREFUSEvt1iEOgDAQRNFeggbufxIMBIICwXGW2TKCoDBTRPcna7biJRVNUxR9
+        zcwyZsKMXOkjemC8hWttgDrMXkizE9PzSBeQQHUBCVQXkPqoB2gr5P1IZK71AfsNfl/1wCN9wAL3Aq8T
+        sHbx59dn5bpOAB33F27mKmq6lC5GBmxHVtoESQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAH5JREFUSEvt1iEOgDAQRNFeggbufxIMBIICwXGW2TKCoDBTRPcna7biJRVNUxR9
+        zcwyZsKMXOkjemC8hWttgDrMXkizE9PzSBeQQHUBCVQXkPqoB2gr5P1IZK71AfsNfl/1wCN9wAL3Aq8T
+        sHbx59dn5bpOAB33F27mKmq6lC5GBmxHVtoESQAAAABJRU5ErkJggg==
+</value>
   </data>
 </root>
