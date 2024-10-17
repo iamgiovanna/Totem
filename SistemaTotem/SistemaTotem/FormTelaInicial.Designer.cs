@@ -197,10 +197,7 @@
             this.Controls.Add(this.PainelTelaInicial);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FormTelaInicial";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.PainelTelaInicial.ResumeLayout(false);
             this.ResumeLayout(false);

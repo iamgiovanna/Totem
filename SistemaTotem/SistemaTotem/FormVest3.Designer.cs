@@ -37,6 +37,7 @@
             this.InfoProvasEmais = new System.Windows.Forms.Label();
             this.InfoListas = new System.Windows.Forms.Label();
             this.TituloProvaoPaulista = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -140,12 +141,29 @@
             this.TituloProvaoPaulista.Text = "Provão Paulista";
             this.TituloProvaoPaulista.Click += new System.EventHandler(this.TituloProvaoPaulista_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(14, 585);
+            this.button1.Margin = new System.Windows.Forms.Padding(5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(65, 59);
+            this.button1.TabIndex = 16;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormVest3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1089, 594);
+            this.ClientSize = new System.Drawing.Size(1096, 705);
+            this.ControlBox = false;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -168,5 +186,6 @@
         private System.Windows.Forms.Label SubTituloListas;
         private System.Windows.Forms.Label SubTituloDatasProvas;
         private System.Windows.Forms.Label SiteInfoOfficial;
+        private System.Windows.Forms.Button button1;
     }
 }

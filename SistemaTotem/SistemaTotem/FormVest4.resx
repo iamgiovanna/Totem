@@ -132,4 +132,13 @@ Entre 09/12/2024 e10/01/2025, a depender da carreira.
 Divulgação do resultado da FUVEST:
 24/01/2025.</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAH5JREFUSEvt1iEOgDAQRNFeggbufxIMBIICwXGW2TKCoDBTRPcna7biJRVNUxR9
+        zcwyZsKMXOkjemC8hWttgDrMXkizE9PzSBeQQHUBCVQXkPqoB2gr5P1IZK71AfsNfl/1wCN9wAL3Aq8T
+        sHbx59dn5bpOAB33F27mKmq6lC5GBmxHVtoESQAAAABJRU5ErkJggg==
+</value>
+  </data>
 </root>

@@ -35,6 +35,7 @@
             this.SubTituloENEM = new System.Windows.Forms.Label();
             this.TituloEnem = new System.Windows.Forms.Label();
             this.SiteInfoOfficial = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -110,12 +111,29 @@
             this.SiteInfoOfficial.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.SiteInfoOfficial.Click += new System.EventHandler(this.SiteInfoOfficial_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(14, 586);
+            this.button1.Margin = new System.Windows.Forms.Padding(5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(65, 59);
+            this.button1.TabIndex = 15;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormVest1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1017, 594);
+            this.ClientSize = new System.Drawing.Size(1028, 659);
+            this.ControlBox = false;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -137,5 +155,6 @@
         private System.Windows.Forms.Label TituloEnem;
         private System.Windows.Forms.Label InfoENEM;
         private System.Windows.Forms.Label SubTituloENEM;
+        private System.Windows.Forms.Button button1;
     }
 }

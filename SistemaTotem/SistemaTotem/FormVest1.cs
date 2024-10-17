@@ -36,5 +36,12 @@ namespace SistemaTotem
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormVestibulares formVestibulares = new FormVestibulares();
+            formVestibulares.Show();
+            this.Hide();
+        }
     }
 }
