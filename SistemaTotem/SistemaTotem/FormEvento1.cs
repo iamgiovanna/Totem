@@ -23,5 +23,10 @@ namespace SistemaTotem
             evento.Show();
             this.Hide();
         }
+
+        private void InfoEvento_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

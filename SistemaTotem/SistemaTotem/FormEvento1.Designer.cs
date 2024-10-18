@@ -75,6 +75,7 @@
             this.InfoEvento.TabIndex = 5;
             this.InfoEvento.Text = resources.GetString("InfoEvento.Text");
             this.InfoEvento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.InfoEvento.Click += new System.EventHandler(this.InfoEvento_Click);
             // 
             // TituloEvento
             // 
