@@ -23,5 +23,10 @@ namespace SistemaTotem
             formEventos.Show();
             this.Hide();
         }
+
+        private void FormEvento6_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

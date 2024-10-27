@@ -23,5 +23,10 @@ namespace SistemaTotem
             formEventos.Show();
             this.Hide();
         }
+
+        private void TituloEvento_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

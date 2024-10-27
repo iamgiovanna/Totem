@@ -84,5 +84,10 @@ namespace SistemaTotem
             formTelaInicial.Show();
             this.Hide();
         }
+
+        private void label10_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

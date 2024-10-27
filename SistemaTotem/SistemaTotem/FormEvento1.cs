@@ -28,5 +28,15 @@ namespace SistemaTotem
         {
 
         }
+
+        private void TituloEvento_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormEvento1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

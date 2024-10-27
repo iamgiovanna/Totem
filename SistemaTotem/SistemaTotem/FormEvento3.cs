@@ -23,5 +23,10 @@ namespace SistemaTotem
             formEventos.Show();
             this.Hide();
         }
+
+        private void PainelEvento_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

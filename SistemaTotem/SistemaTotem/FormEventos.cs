@@ -82,5 +82,15 @@ namespace SistemaTotem
             formEvento7.Show();
             this.Hide();
         }
+
+        private void FormEventos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
