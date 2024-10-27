@@ -36,40 +36,39 @@
             this.SubTituloFuvest = new System.Windows.Forms.Label();
             this.labelTitle = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
-            this.flowLayoutPanel1.Controls.Add(this.panel1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(40, 32);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(146, 51);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(943, 511);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(707, 415);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
             this.panel1.Controls.Add(this.SiteInfoOfficial);
             this.panel1.Controls.Add(this.InfoCalendarioFuvest);
             this.panel1.Controls.Add(this.SubTituloFuvest);
             this.panel1.Controls.Add(this.labelTitle);
-            this.panel1.Location = new System.Drawing.Point(3, 2);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(139, 51);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(940, 508);
+            this.panel1.Size = new System.Drawing.Size(714, 423);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // SiteInfoOfficial
             // 
             this.SiteInfoOfficial.BackColor = System.Drawing.Color.FloralWhite;
-            this.SiteInfoOfficial.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SiteInfoOfficial.Location = new System.Drawing.Point(263, 441);
-            this.SiteInfoOfficial.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.SiteInfoOfficial.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SiteInfoOfficial.Location = new System.Drawing.Point(221, 365);
             this.SiteInfoOfficial.Name = "SiteInfoOfficial";
-            this.SiteInfoOfficial.Size = new System.Drawing.Size(395, 41);
+            this.SiteInfoOfficial.Size = new System.Drawing.Size(296, 33);
             this.SiteInfoOfficial.TabIndex = 3;
             this.SiteInfoOfficial.Text = "Para mais informaçõoes, acesse o site oficial: www.fuvest.br";
             this.SiteInfoOfficial.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -77,12 +76,13 @@
             // InfoCalendarioFuvest
             // 
             this.InfoCalendarioFuvest.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.InfoCalendarioFuvest.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InfoCalendarioFuvest.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InfoCalendarioFuvest.ForeColor = System.Drawing.SystemColors.WindowText;
             this.InfoCalendarioFuvest.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.InfoCalendarioFuvest.Location = new System.Drawing.Point(180, 136);
+            this.InfoCalendarioFuvest.Location = new System.Drawing.Point(152, 112);
+            this.InfoCalendarioFuvest.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.InfoCalendarioFuvest.Name = "InfoCalendarioFuvest";
-            this.InfoCalendarioFuvest.Size = new System.Drawing.Size(561, 285);
+            this.InfoCalendarioFuvest.Size = new System.Drawing.Size(421, 232);
             this.InfoCalendarioFuvest.TabIndex = 2;
             this.InfoCalendarioFuvest.Text = resources.GetString("InfoCalendarioFuvest.Text");
             this.InfoCalendarioFuvest.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -91,11 +91,12 @@
             // SubTituloFuvest
             // 
             this.SubTituloFuvest.AutoSize = true;
-            this.SubTituloFuvest.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SubTituloFuvest.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubTituloFuvest.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.SubTituloFuvest.Location = new System.Drawing.Point(226, 85);
+            this.SubTituloFuvest.Location = new System.Drawing.Point(200, 72);
+            this.SubTituloFuvest.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.SubTituloFuvest.Name = "SubTituloFuvest";
-            this.SubTituloFuvest.Size = new System.Drawing.Size(459, 31);
+            this.SubTituloFuvest.Size = new System.Drawing.Size(342, 25);
             this.SubTituloFuvest.TabIndex = 1;
             this.SubTituloFuvest.Text = "Calendário vestibular Fuvest 2025";
             this.SubTituloFuvest.Click += new System.EventHandler(this.label2_Click);
@@ -103,11 +104,12 @@
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
-            this.labelTitle.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelTitle.Location = new System.Drawing.Point(382, 34);
+            this.labelTitle.Location = new System.Drawing.Point(318, 29);
+            this.labelTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(133, 35);
+            this.labelTitle.Size = new System.Drawing.Size(97, 28);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "FUVEST";
             // 
@@ -118,29 +120,29 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(14, 566);
-            this.button1.Margin = new System.Windows.Forms.Padding(5);
+            this.button1.Location = new System.Drawing.Point(50, 418);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(65, 59);
+            this.button1.Size = new System.Drawing.Size(56, 48);
             this.button1.TabIndex = 17;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormVest4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1019, 674);
+            this.ClientSize = new System.Drawing.Size(952, 523);
             this.ControlBox = false;
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormVest4";
             this.Text = "Fuvest";
             this.Load += new System.EventHandler(this.FormVest4_Load);
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

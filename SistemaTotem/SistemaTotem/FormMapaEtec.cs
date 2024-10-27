@@ -44,5 +44,15 @@ namespace SistemaTotem
         {
 
         }
+
+        private void flowLayoutPanel3_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void PictureMapaEtecZL_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
