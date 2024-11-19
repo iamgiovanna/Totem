@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDenuncia));
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.BtnTelaInicial = new System.Windows.Forms.Button();
@@ -38,37 +36,16 @@
             this.LabelDenuncia3 = new System.Windows.Forms.Label();
             this.LabelDenuncia2 = new System.Windows.Forms.Label();
             this.LabelDenuncia1 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel2.SuspendLayout();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.PainelDenuncia.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1280, 68);
-            this.flowLayoutPanel1.TabIndex = 0;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
-            this.flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel2.Controls.Add(this.panel1);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(343, 120);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(647, 74);
-            this.flowLayoutPanel2.TabIndex = 1;
-            this.flowLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel2_Paint);
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(4, 4);
+            this.panel1.Location = new System.Drawing.Point(376, 20);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(618, 62);
@@ -80,7 +57,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(93, 11);
+            this.label1.Location = new System.Drawing.Point(74, 10);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(417, 40);
@@ -95,10 +72,10 @@
             this.BtnTelaInicial.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnTelaInicial.ForeColor = System.Drawing.Color.White;
             this.BtnTelaInicial.Image = ((System.Drawing.Image)(resources.GetObject("BtnTelaInicial.Image")));
-            this.BtnTelaInicial.Location = new System.Drawing.Point(161, 129);
+            this.BtnTelaInicial.Location = new System.Drawing.Point(77, 14);
             this.BtnTelaInicial.Margin = new System.Windows.Forms.Padding(5);
             this.BtnTelaInicial.Name = "BtnTelaInicial";
-            this.BtnTelaInicial.Size = new System.Drawing.Size(77, 59);
+            this.BtnTelaInicial.Size = new System.Drawing.Size(74, 68);
             this.BtnTelaInicial.TabIndex = 7;
             this.BtnTelaInicial.UseVisualStyleBackColor = false;
             this.BtnTelaInicial.Click += new System.EventHandler(this.btntelainical_Click);
@@ -109,17 +86,17 @@
             this.PainelDenuncia.Controls.Add(this.LabelDenuncia3);
             this.PainelDenuncia.Controls.Add(this.LabelDenuncia2);
             this.PainelDenuncia.Controls.Add(this.LabelDenuncia1);
-            this.PainelDenuncia.Location = new System.Drawing.Point(123, 223);
+            this.PainelDenuncia.Location = new System.Drawing.Point(126, 145);
             this.PainelDenuncia.Margin = new System.Windows.Forms.Padding(4);
             this.PainelDenuncia.Name = "PainelDenuncia";
-            this.PainelDenuncia.Size = new System.Drawing.Size(1047, 431);
+            this.PainelDenuncia.Size = new System.Drawing.Size(1072, 526);
             this.PainelDenuncia.TabIndex = 8;
             // 
             // LabelDenuncia3
             // 
             this.LabelDenuncia3.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelDenuncia3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.LabelDenuncia3.Location = new System.Drawing.Point(33, 243);
+            this.LabelDenuncia3.Location = new System.Drawing.Point(53, 319);
             this.LabelDenuncia3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelDenuncia3.Name = "LabelDenuncia3";
             this.LabelDenuncia3.Size = new System.Drawing.Size(992, 169);
@@ -132,7 +109,7 @@
             // 
             this.LabelDenuncia2.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelDenuncia2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.LabelDenuncia2.Location = new System.Drawing.Point(88, 121);
+            this.LabelDenuncia2.Location = new System.Drawing.Point(75, 163);
             this.LabelDenuncia2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelDenuncia2.Name = "LabelDenuncia2";
             this.LabelDenuncia2.Size = new System.Drawing.Size(885, 122);
@@ -144,7 +121,7 @@
             // 
             this.LabelDenuncia1.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelDenuncia1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.LabelDenuncia1.Location = new System.Drawing.Point(110, 31);
+            this.LabelDenuncia1.Location = new System.Drawing.Point(110, 32);
             this.LabelDenuncia1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelDenuncia1.Name = "LabelDenuncia1";
             this.LabelDenuncia1.Size = new System.Drawing.Size(850, 90);
@@ -152,34 +129,41 @@
             this.LabelDenuncia1.Text = resources.GetString("LabelDenuncia1.Text");
             this.LabelDenuncia1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // panel2
+            // 
+            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
+            this.panel2.Controls.Add(this.panel1);
+            this.panel2.Controls.Add(this.BtnTelaInicial);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1288, 109);
+            this.panel2.TabIndex = 75;
+            // 
             // FormDenuncia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.PainelDenuncia);
-            this.Controls.Add(this.BtnTelaInicial);
-            this.Controls.Add(this.flowLayoutPanel2);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormDenuncia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "Denúncia";
             this.Load += new System.EventHandler(this.FormDenuncia_Load);
-            this.flowLayoutPanel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.PainelDenuncia.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnTelaInicial;
@@ -187,5 +171,6 @@
         private System.Windows.Forms.Label LabelDenuncia3;
         private System.Windows.Forms.Label LabelDenuncia2;
         private System.Windows.Forms.Label LabelDenuncia1;
+        private System.Windows.Forms.Panel panel2;
     }
 }

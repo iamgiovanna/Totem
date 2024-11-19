@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormVestibulares));
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -37,19 +36,11 @@
             this.BtnVest4 = new System.Windows.Forms.Button();
             this.BtnVest3 = new System.Windows.Forms.Button();
             this.BtnVest1 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel4.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1680, 83);
-            this.flowLayoutPanel1.TabIndex = 0;
             // 
             // btnVoltar
             // 
@@ -58,8 +49,8 @@
             this.btnVoltar.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVoltar.ForeColor = System.Drawing.Color.White;
             this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
-            this.btnVoltar.Location = new System.Drawing.Point(105, 877);
-            this.btnVoltar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnVoltar.Location = new System.Drawing.Point(36, 27);
+            this.btnVoltar.Margin = new System.Windows.Forms.Padding(5);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(69, 66);
             this.btnVoltar.TabIndex = 8;
@@ -70,22 +61,21 @@
             // 
             this.flowLayoutPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
             this.flowLayoutPanel4.Controls.Add(this.panel1);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(144, 293);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(35, 235);
             this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(1412, 532);
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(1219, 385);
             this.flowLayoutPanel4.TabIndex = 10;
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.BtnVest4);
             this.panel1.Controls.Add(this.BtnVest3);
             this.panel1.Controls.Add(this.BtnVest1);
             this.panel1.Location = new System.Drawing.Point(3, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1409, 530);
+            this.panel1.Size = new System.Drawing.Size(1216, 383);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -94,7 +84,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(313, 113);
+            this.label1.Location = new System.Drawing.Point(302, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(737, 40);
             this.label1.TabIndex = 6;
@@ -103,7 +93,7 @@
             // BtnVest4
             // 
             this.BtnVest4.Image = ((System.Drawing.Image)(resources.GetObject("BtnVest4.Image")));
-            this.BtnVest4.Location = new System.Drawing.Point(971, 240);
+            this.BtnVest4.Location = new System.Drawing.Point(856, 107);
             this.BtnVest4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnVest4.Name = "BtnVest4";
             this.BtnVest4.Size = new System.Drawing.Size(311, 139);
@@ -117,7 +107,7 @@
             this.BtnVest3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.BtnVest3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BtnVest3.Image = ((System.Drawing.Image)(resources.GetObject("BtnVest3.Image")));
-            this.BtnVest3.Location = new System.Drawing.Point(165, 240);
+            this.BtnVest3.Location = new System.Drawing.Point(74, 107);
             this.BtnVest3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnVest3.Name = "BtnVest3";
             this.BtnVest3.Size = new System.Drawing.Size(311, 139);
@@ -128,7 +118,7 @@
             // BtnVest1
             // 
             this.BtnVest1.Image = ((System.Drawing.Image)(resources.GetObject("BtnVest1.Image")));
-            this.BtnVest1.Location = new System.Drawing.Point(568, 240);
+            this.BtnVest1.Location = new System.Drawing.Point(465, 107);
             this.BtnVest1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnVest1.Name = "BtnVest1";
             this.BtnVest1.Size = new System.Drawing.Size(311, 139);
@@ -136,15 +126,26 @@
             this.BtnVest1.UseVisualStyleBackColor = true;
             this.BtnVest1.Click += new System.EventHandler(this.BtnVest1_Click);
             // 
+            // panel2
+            // 
+            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.btnVoltar);
+            this.panel2.Location = new System.Drawing.Point(-1, -1);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1288, 109);
+            this.panel2.TabIndex = 75;
+            // 
             // FormVestibulares
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1680, 1050);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.flowLayoutPanel4);
-            this.Controls.Add(this.btnVoltar);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormVestibulares";
@@ -152,14 +153,13 @@
             this.Load += new System.EventHandler(this.FormVestibulares_Load);
             this.flowLayoutPanel4.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
         private System.Windows.Forms.Panel panel1;
@@ -167,5 +167,6 @@
         private System.Windows.Forms.Button BtnVest3;
         private System.Windows.Forms.Button BtnVest1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel2;
     }
 }

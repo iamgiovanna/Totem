@@ -54,5 +54,10 @@ namespace SistemaTotem
         {
 
         }
+
+        private void BtnVest3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
