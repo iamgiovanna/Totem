@@ -50,7 +50,7 @@ namespace SistemaTotem
         private void button2_Click(object sender, EventArgs e)
         {
             //EVENTO DENUNCIA
-            FormDenuncia  formDenuncia = new FormDenuncia();
+            FrmDenuncia  formDenuncia = new FrmDenuncia();
             formDenuncia.Show();
             this.Hide();
 
@@ -59,7 +59,7 @@ namespace SistemaTotem
         private void BtnMapa_Click(object sender, EventArgs e)
         {
             //evento mapa 
-            FormMapaEtec FormME = new FormMapaEtec();
+            FrmMapaEtec FormME = new FrmMapaEtec();
             FormME.Show();
             this.Hide();
         }
