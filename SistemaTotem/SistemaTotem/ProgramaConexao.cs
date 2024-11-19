@@ -8,28 +8,27 @@ using MongoDB.Driver;
 
 namespace SistemaTotem
 {
-    class ProgramaConexao
+    public class MongoDbConnection
     {
-        private static IMongoCollection<BsonDocument> _collection;
+        private readonly IMongoDatabase _database;
 
-
-        static async Task Main(string[] args)
+        public MongoDbConnection()
         {
             try
             {
-                var ConnMongo = "mongodb://localhost:27017";
-                var conn = new MongoClient(ConnMongo);
-                var database = conn.GetDatabase("App_GremioDB");
-                _collection = database.GetCollection<BsonDocument>("GACollection_Eventos");
-
-                var teste = new BsonDocument { { "ping", 1 } };
-                await database.RunCommandAsync<BsonDocument>(teste);
-                Console.WriteLine("Conexão bem-sucedida!! Pode dar um tempo pra tentar fazer os seus exercícios agora linda");
+                string ConnMongo = "mongodb://localhost:27017";
+                var cliente = new MongoClient(ConnMongo);
+                _database = cliente.GetDatabase("GACollection_Eventos");
+                Console.WriteLine("Conexão estabelecida com sucesso");
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Erro ao conectar ao Mongo.. {ex.Message}");
             }
         }
+
+        public IMongoCollection<T> GetCollection<T>(string collectionName) {
+            return _database.GetCollection<T>(collectionName);
+         }
     }
 }

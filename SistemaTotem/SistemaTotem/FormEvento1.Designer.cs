@@ -46,7 +46,7 @@
             this.FlowPainelEvento.Controls.Add(this.PainelEvento);
             this.FlowPainelEvento.Controls.Add(this.BtnTelaInicial);
             this.FlowPainelEvento.Location = new System.Drawing.Point(121, 36);
-            this.FlowPainelEvento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FlowPainelEvento.Margin = new System.Windows.Forms.Padding(2);
             this.FlowPainelEvento.Name = "FlowPainelEvento";
             this.FlowPainelEvento.Size = new System.Drawing.Size(727, 450);
             this.FlowPainelEvento.TabIndex = 1;
@@ -111,7 +111,7 @@
             this.BtnTelaInicial.ForeColor = System.Drawing.Color.White;
             this.BtnTelaInicial.Image = ((System.Drawing.Image)(resources.GetObject("BtnTelaInicial.Image")));
             this.BtnTelaInicial.Location = new System.Drawing.Point(4, 460);
-            this.BtnTelaInicial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnTelaInicial.Margin = new System.Windows.Forms.Padding(4);
             this.BtnTelaInicial.Name = "BtnTelaInicial";
             this.BtnTelaInicial.Size = new System.Drawing.Size(49, 48);
             this.BtnTelaInicial.TabIndex = 8;
@@ -125,7 +125,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.Location = new System.Drawing.Point(35, 438);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(49, 48);
             this.button1.TabIndex = 8;
@@ -137,10 +137,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(952, 523);
+            this.ClientSize = new System.Drawing.Size(952, 524);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.FlowPainelEvento);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormEvento1";

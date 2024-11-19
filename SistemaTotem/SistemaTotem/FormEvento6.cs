@@ -12,6 +12,8 @@ namespace SistemaTotem
 {
     public partial class FormEvento6 : Form
     {
+        private EventosBD Evento6;
+
         public FormEvento6()
         {
             InitializeComponent();
@@ -27,6 +29,12 @@ namespace SistemaTotem
         private void FormEvento6_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void TituloEvento6_Click(object sender, EventArgs e)
+        {
+         
+            
         }
     }
 }

@@ -138,6 +138,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventosBD.cs" />
     <Compile Include="FormEvento1.cs">
       <SubType>Form</SubType>
     </Compile>
