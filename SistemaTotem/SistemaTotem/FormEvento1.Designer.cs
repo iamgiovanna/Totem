@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEvento1));
             this.FlowPainelEvento = new System.Windows.Forms.FlowLayoutPanel();
             this.PainelEvento = new System.Windows.Forms.Panel();
-            this.InfoEvento = new System.Windows.Forms.Label();
             this.TituloEvento = new System.Windows.Forms.Label();
             this.MaisInformacoes = new System.Windows.Forms.Label();
             this.BtnTelaInicial = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.InfoEvento = new System.Windows.Forms.Label();
             this.FlowPainelEvento.SuspendLayout();
             this.PainelEvento.SuspendLayout();
             this.SuspendLayout();
@@ -61,43 +61,27 @@
             this.PainelEvento.Size = new System.Drawing.Size(723, 450);
             this.PainelEvento.TabIndex = 0;
             // 
-            // InfoEvento
-            // 
-            this.InfoEvento.AutoSize = true;
-            this.InfoEvento.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.InfoEvento.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoEvento.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.InfoEvento.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.InfoEvento.Location = new System.Drawing.Point(23, 140);
-            this.InfoEvento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.InfoEvento.Name = "InfoEvento";
-            this.InfoEvento.Size = new System.Drawing.Size(686, 70);
-            this.InfoEvento.TabIndex = 5;
-            this.InfoEvento.Text = resources.GetString("InfoEvento.Text");
-            this.InfoEvento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.InfoEvento.Click += new System.EventHandler(this.InfoEvento_Click);
-            // 
             // TituloEvento
             // 
             this.TituloEvento.AutoSize = true;
             this.TituloEvento.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TituloEvento.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.TituloEvento.Location = new System.Drawing.Point(267, 49);
+            this.TituloEvento.Location = new System.Drawing.Point(249, 54);
             this.TituloEvento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TituloEvento.Name = "TituloEvento";
-            this.TituloEvento.Size = new System.Drawing.Size(213, 28);
+            this.TituloEvento.Size = new System.Drawing.Size(244, 28);
             this.TituloEvento.TabIndex = 3;
-            this.TituloEvento.Text = "NOME DO EVENTO";
+            this.TituloEvento.Text = "FEIRA TECNOLÓGICA";
             this.TituloEvento.Click += new System.EventHandler(this.TituloEvento_Click);
             // 
             // MaisInformacoes
             // 
             this.MaisInformacoes.AutoSize = true;
             this.MaisInformacoes.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.MaisInformacoes.Font = new System.Drawing.Font("Cambria", 8.25F);
-            this.MaisInformacoes.Location = new System.Drawing.Point(253, 376);
+            this.MaisInformacoes.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MaisInformacoes.Location = new System.Drawing.Point(251, 384);
             this.MaisInformacoes.Name = "MaisInformacoes";
-            this.MaisInformacoes.Size = new System.Drawing.Size(204, 36);
+            this.MaisInformacoes.Size = new System.Drawing.Size(250, 45);
             this.MaisInformacoes.TabIndex = 2;
             this.MaisInformacoes.Text = "Para mais informaçõoes sobre o evento, \r\nconsultar um mebro do grêmio, \r\nou o seu" +
     " líder de sala, ou a direção da escola";
@@ -132,6 +116,22 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // InfoEvento
+            // 
+            this.InfoEvento.AutoSize = true;
+            this.InfoEvento.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.InfoEvento.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InfoEvento.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.InfoEvento.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.InfoEvento.Location = new System.Drawing.Point(26, 121);
+            this.InfoEvento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.InfoEvento.Name = "InfoEvento";
+            this.InfoEvento.Size = new System.Drawing.Size(665, 228);
+            this.InfoEvento.TabIndex = 5;
+            this.InfoEvento.Text = resources.GetString("InfoEvento.Text");
+            this.InfoEvento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.InfoEvento.Click += new System.EventHandler(this.InfoEvento_Click);
+            // 
             // FormEvento1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -144,7 +144,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormEvento1";
-            this.Text = "Evento1";
+            this.Text = "Feira Tecnológica";
             this.Load += new System.EventHandler(this.FormEvento1_Load);
             this.FlowPainelEvento.ResumeLayout(false);
             this.PainelEvento.ResumeLayout(false);
@@ -157,10 +157,10 @@
 
         private System.Windows.Forms.FlowLayoutPanel FlowPainelEvento;
         private System.Windows.Forms.Panel PainelEvento;
-        private System.Windows.Forms.Label InfoEvento;
         private System.Windows.Forms.Label TituloEvento;
         private System.Windows.Forms.Label MaisInformacoes;
         private System.Windows.Forms.Button BtnTelaInicial;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label InfoEvento;
     }
 }

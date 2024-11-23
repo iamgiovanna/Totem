@@ -67,28 +67,17 @@ namespace SistemaTotem
             this.Hide();
         }
 
-        private void Btn6_Click(object sender, EventArgs e)
-        {
-            //Evento 6
-            FormEvento6 formEvento6 = new FormEvento6();
-            formEvento6.Show();
-            this.Hide();
-        }
-
-        private void Btn7_Click(object sender, EventArgs e)
-        {
-            //Evento 7
-            FormEvento7 formEvento7 = new FormEvento7();
-            formEvento7.Show();
-            this.Hide();
-        }
-
         private void FormEventos_Load(object sender, EventArgs e)
         {
 
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

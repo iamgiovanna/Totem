@@ -119,10 +119,19 @@
   </resheader>
   <data name="InfoEvento.Text" xml:space="preserve">
     <value>INFORMAÇÕES O EVENTO:
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
- dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
- sunt in culpa qui officia deserunt mollit anim id est laborum."</value>
+
+A Semana Paulo Freire na ETEC da Zona Leste 
+é um evento dedicado a celebrar o legado do educador Paulo Freire, 
+promovendo reflexões sobre educação transformadora e cidadania.
+A programação inclui palestras, oficinas, rodas de conversa e 
+exposições organizadas por alunos e professores, 
+abordando temas como inclusão, direitos humanos e inovação pedagógica.  
+
+O evento busca inspirar a comunidade escolar a valorizar
+a educação como ferramenta de transformação social.  
+
+Local: ETEC da Zona Leste  
+Participação gratuita e aberta ao público.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

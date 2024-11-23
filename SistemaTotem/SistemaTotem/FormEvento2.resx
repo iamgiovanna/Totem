@@ -119,10 +119,18 @@
   </resheader>
   <data name="InfoEvento.Text" xml:space="preserve">
     <value>INFORMAÇÕES O EVENTO:
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
- dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
- sunt in culpa qui officia deserunt mollit anim id est laborum."</value>
+
+No dia 21 de setembro de 2024, a ETEC da Zona Leste realizará o aguardado Baile de Primavera, 
+um evento que promete muita diversão, música e celebração.
+Com uma temática inspirada na estação das flores,
+o baile contará com decoração temática e espaços interativos para fotos e convivência.  
+
+O evento é uma oportunidade para alunos,
+professores e convidados comemorarem juntos em um ambiente descontraído e especial.  
+
+Data: 21 de setembro de 2024  
+Local: ETEC da Zona Leste  
+Venha e participe desse dia inesquecível!</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

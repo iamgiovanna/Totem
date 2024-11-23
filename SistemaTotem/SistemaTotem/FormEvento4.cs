@@ -33,5 +33,10 @@ namespace SistemaTotem
         {
 
         }
+
+        private void TituloEvento_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
