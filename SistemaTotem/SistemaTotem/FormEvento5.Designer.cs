@@ -32,8 +32,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.PainelEvento = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.TituloEvento = new System.Windows.Forms.Label();
             this.InfoEvento = new System.Windows.Forms.Label();
+            this.TituloEvento = new System.Windows.Forms.Label();
             this.PainelEvento.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,10 +44,10 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(33, 437);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(44, 538);
+            this.button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(49, 48);
+            this.button1.Size = new System.Drawing.Size(65, 59);
             this.button1.TabIndex = 12;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -58,9 +58,10 @@
             this.PainelEvento.Controls.Add(this.label1);
             this.PainelEvento.Controls.Add(this.InfoEvento);
             this.PainelEvento.Controls.Add(this.TituloEvento);
-            this.PainelEvento.Location = new System.Drawing.Point(127, 38);
+            this.PainelEvento.Location = new System.Drawing.Point(169, 47);
+            this.PainelEvento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PainelEvento.Name = "PainelEvento";
-            this.PainelEvento.Size = new System.Drawing.Size(724, 447);
+            this.PainelEvento.Size = new System.Drawing.Size(965, 550);
             this.PainelEvento.TabIndex = 13;
             // 
             // label1
@@ -68,25 +69,14 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(241, 374);
+            this.label1.Location = new System.Drawing.Point(321, 460);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(250, 45);
+            this.label1.Size = new System.Drawing.Size(324, 60);
             this.label1.TabIndex = 8;
             this.label1.Text = "Para mais informaçõoes sobre o evento, \r\nconsultar um mebro do grêmio, \r\nou o seu" +
     " líder de sala, ou a direção da escola";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // TituloEvento
-            // 
-            this.TituloEvento.AutoSize = true;
-            this.TituloEvento.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TituloEvento.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.TituloEvento.Location = new System.Drawing.Point(283, 58);
-            this.TituloEvento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.TituloEvento.Name = "TituloEvento";
-            this.TituloEvento.Size = new System.Drawing.Size(184, 28);
-            this.TituloEvento.TabIndex = 3;
-            this.TituloEvento.Text = "Provão Paulista";
             // 
             // InfoEvento
             // 
@@ -95,23 +85,34 @@
             this.InfoEvento.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InfoEvento.ForeColor = System.Drawing.SystemColors.WindowText;
             this.InfoEvento.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.InfoEvento.Location = new System.Drawing.Point(64, 119);
-            this.InfoEvento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.InfoEvento.Location = new System.Drawing.Point(93, 130);
             this.InfoEvento.Name = "InfoEvento";
-            this.InfoEvento.Size = new System.Drawing.Size(602, 228);
+            this.InfoEvento.Size = new System.Drawing.Size(743, 276);
             this.InfoEvento.TabIndex = 5;
             this.InfoEvento.Text = resources.GetString("InfoEvento.Text");
             this.InfoEvento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // TituloEvento
+            // 
+            this.TituloEvento.AutoSize = true;
+            this.TituloEvento.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TituloEvento.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TituloEvento.Location = new System.Drawing.Point(377, 71);
+            this.TituloEvento.Name = "TituloEvento";
+            this.TituloEvento.Size = new System.Drawing.Size(228, 36);
+            this.TituloEvento.TabIndex = 3;
+            this.TituloEvento.Text = "Provão Paulista";
+            // 
             // FormEvento5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(952, 524);
+            this.ClientSize = new System.Drawing.Size(1269, 644);
             this.Controls.Add(this.PainelEvento);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormEvento5";

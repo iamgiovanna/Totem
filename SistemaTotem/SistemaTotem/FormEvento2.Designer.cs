@@ -43,10 +43,10 @@
             // 
             this.FlowPainelEvento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
             this.FlowPainelEvento.Controls.Add(this.PainelEvento);
-            this.FlowPainelEvento.Location = new System.Drawing.Point(138, 40);
-            this.FlowPainelEvento.Margin = new System.Windows.Forms.Padding(2);
+            this.FlowPainelEvento.Location = new System.Drawing.Point(184, 49);
+            this.FlowPainelEvento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FlowPainelEvento.Name = "FlowPainelEvento";
-            this.FlowPainelEvento.Size = new System.Drawing.Size(727, 450);
+            this.FlowPainelEvento.Size = new System.Drawing.Size(969, 554);
             this.FlowPainelEvento.TabIndex = 2;
             // 
             // PainelEvento
@@ -54,9 +54,10 @@
             this.PainelEvento.Controls.Add(this.label1);
             this.PainelEvento.Controls.Add(this.InfoEvento);
             this.PainelEvento.Controls.Add(this.TituloEvento);
-            this.PainelEvento.Location = new System.Drawing.Point(3, 3);
+            this.PainelEvento.Location = new System.Drawing.Point(4, 4);
+            this.PainelEvento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PainelEvento.Name = "PainelEvento";
-            this.PainelEvento.Size = new System.Drawing.Size(724, 447);
+            this.PainelEvento.Size = new System.Drawing.Size(965, 550);
             this.PainelEvento.TabIndex = 0;
             this.PainelEvento.Paint += new System.Windows.Forms.PaintEventHandler(this.PainelEvento_Paint);
             // 
@@ -65,9 +66,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(252, 379);
+            this.label1.Location = new System.Drawing.Point(336, 466);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(250, 45);
+            this.label1.Size = new System.Drawing.Size(324, 60);
             this.label1.TabIndex = 6;
             this.label1.Text = "Para mais informaçõoes sobre o evento, \r\nconsultar um mebro do grêmio, \r\nou o seu" +
     " líder de sala, ou a direção da escola";
@@ -80,10 +82,9 @@
             this.InfoEvento.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InfoEvento.ForeColor = System.Drawing.SystemColors.WindowText;
             this.InfoEvento.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.InfoEvento.Location = new System.Drawing.Point(26, 109);
-            this.InfoEvento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.InfoEvento.Location = new System.Drawing.Point(35, 134);
             this.InfoEvento.Name = "InfoEvento";
-            this.InfoEvento.Size = new System.Drawing.Size(683, 247);
+            this.InfoEvento.Size = new System.Drawing.Size(834, 299);
             this.InfoEvento.TabIndex = 5;
             this.InfoEvento.Text = resources.GetString("InfoEvento.Text");
             this.InfoEvento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -93,10 +94,9 @@
             this.TituloEvento.AutoSize = true;
             this.TituloEvento.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TituloEvento.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.TituloEvento.Location = new System.Drawing.Point(269, 46);
-            this.TituloEvento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.TituloEvento.Location = new System.Drawing.Point(359, 57);
             this.TituloEvento.Name = "TituloEvento";
-            this.TituloEvento.Size = new System.Drawing.Size(222, 28);
+            this.TituloEvento.Size = new System.Drawing.Size(276, 36);
             this.TituloEvento.TabIndex = 3;
             this.TituloEvento.Text = "Baile de Primavera";
             // 
@@ -107,24 +107,25 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(42, 442);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(56, 544);
+            this.button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(49, 48);
+            this.button1.Size = new System.Drawing.Size(65, 59);
             this.button1.TabIndex = 9;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormEvento2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(952, 523);
+            this.ClientSize = new System.Drawing.Size(1269, 644);
             this.Controls.Add(this.FlowPainelEvento);
             this.Controls.Add(this.button1);
             this.ForeColor = System.Drawing.Color.Black;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormEvento2";

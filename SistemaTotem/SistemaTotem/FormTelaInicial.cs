@@ -15,9 +15,21 @@ namespace SistemaTotem
         public FormTelaInicial()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
+        private void CentralizarPainel(Panel painel)
+        {
+            int x = (this.ClientSize.Width - painel.Width) / 2;
+            int y = (this.ClientSize.Height - painel.Height) / 2;
 
+            painel.Location = new Point(x, y);
+        }
+        private void FormTelaInicial_Load(object sender, EventArgs e)
+        {
+            CentralizarPainel(panel1);
+        
+        }
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -89,6 +101,11 @@ namespace SistemaTotem
         }
 
         private void PainelTelaInicial_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
         {
 
         }
