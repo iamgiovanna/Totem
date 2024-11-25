@@ -15,6 +15,14 @@ namespace SistemaTotem
         public FrmMapaEtec()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
+        }
+        private void CentralizarPainel(Panel painel)
+        {
+            int x = (this.ClientSize.Width - painel.Width) / 2;
+            int y = (this.ClientSize.Height - painel.Height) / 2;
+
+            painel.Location = new Point(x, y);
         }
 
         private void BtnVoltar_Click(object sender, EventArgs e)
@@ -41,6 +49,17 @@ namespace SistemaTotem
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
+
+        }
+
+        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FrmMapaEtec_Load(object sender, EventArgs e)
+        {
+            CentralizarPainel(flowLayoutPanel2);
 
         }
     }

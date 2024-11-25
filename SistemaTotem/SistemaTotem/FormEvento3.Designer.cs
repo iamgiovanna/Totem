@@ -35,6 +35,7 @@
             this.InfoEvento = new System.Windows.Forms.Label();
             this.TituloEvento = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.FlowPainelEvento.SuspendLayout();
             this.PainelEvento.SuspendLayout();
             this.SuspendLayout();
@@ -43,7 +44,7 @@
             // 
             this.FlowPainelEvento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
             this.FlowPainelEvento.Controls.Add(this.PainelEvento);
-            this.FlowPainelEvento.Location = new System.Drawing.Point(176, 43);
+            this.FlowPainelEvento.Location = new System.Drawing.Point(493, 128);
             this.FlowPainelEvento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FlowPainelEvento.Name = "FlowPainelEvento";
             this.FlowPainelEvento.Size = new System.Drawing.Size(969, 554);
@@ -55,7 +56,7 @@
             this.PainelEvento.Controls.Add(this.InfoEvento);
             this.PainelEvento.Controls.Add(this.TituloEvento);
             this.PainelEvento.Location = new System.Drawing.Point(4, 4);
-            this.PainelEvento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PainelEvento.Margin = new System.Windows.Forms.Padding(4);
             this.PainelEvento.Name = "PainelEvento";
             this.PainelEvento.Size = new System.Drawing.Size(965, 550);
             this.PainelEvento.TabIndex = 0;
@@ -107,28 +108,41 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(49, 538);
-            this.button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.button1.Location = new System.Drawing.Point(97, 362);
+            this.button1.Margin = new System.Windows.Forms.Padding(5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(65, 59);
+            this.button1.Size = new System.Drawing.Size(94, 83);
             this.button1.TabIndex = 10;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(62)))), ((int)(((byte)(99)))));
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1647, 85);
+            this.flowLayoutPanel1.TabIndex = 11;
             // 
             // FormEvento3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1269, 644);
+            this.ClientSize = new System.Drawing.Size(1647, 796);
+            this.ControlBox = false;
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.FlowPainelEvento);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormEvento3";
             this.Text = "Feira do Emprendedor";
+            this.Load += new System.EventHandler(this.FormEvento3_Load);
             this.FlowPainelEvento.ResumeLayout(false);
             this.PainelEvento.ResumeLayout(false);
             this.PainelEvento.PerformLayout();
@@ -144,5 +158,6 @@
         private System.Windows.Forms.Label TituloEvento;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

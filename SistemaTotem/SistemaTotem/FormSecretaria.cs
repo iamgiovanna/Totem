@@ -15,6 +15,16 @@ namespace SistemaTotem
         public FormSecretaria()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
+
+        }
+
+        private void CentralizarPainel(Panel painel)
+        {
+            int x = (this.ClientSize.Width - painel.Width) / 2;
+            int y = (this.ClientSize.Height - painel.Height) / 2;
+
+            painel.Location = new Point(x, y);
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -24,7 +34,7 @@ namespace SistemaTotem
 
         private void FormSecretaria_Load(object sender, EventArgs e)
         {
-
+            CentralizarPainel(flowLayoutPanel1);
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -86,6 +96,11 @@ namespace SistemaTotem
         }
 
         private void label10_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\55119\\source\\repos\\Totem\\",
+  "WorkspaceRootPath": "C:\\Users\\Giovanna Oliveira\\Desktop\\Totem\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -17,11 +17,15 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
             },
             {
               "$type": "Bookmark",

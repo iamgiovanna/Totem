@@ -15,6 +15,14 @@ namespace SistemaTotem
         public FormEvento5()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
+        }
+        private void CentralizarPainel(Panel painel)
+        {
+            int x = (this.ClientSize.Width - painel.Width) / 2;
+            int y = (this.ClientSize.Height - painel.Height) / 2;
+
+            painel.Location = new Point(x, y);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -24,9 +32,9 @@ namespace SistemaTotem
             this.Hide();
         }
 
-        private void TituloEvento_Click(object sender, EventArgs e)
+        private void FormEvento5_Load(object sender, EventArgs e)
         {
-
+            CentralizarPainel(flowPainelEvento);
         }
     }
 }

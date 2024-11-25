@@ -15,10 +15,21 @@ namespace SistemaTotem
         public FormVestibulares()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
+
+        }
+
+        private void CentralizarPainel(Panel painel)
+        {
+            int x = (this.ClientSize.Width - painel.Width) / 2;
+            int y = (this.ClientSize.Height - painel.Height) / 2;
+
+            painel.Location = new Point(x, y);
         }
 
         private void FormVestibulares_Load(object sender, EventArgs e)
         {
+            CentralizarPainel(flowLayoutPanel1);
 
         }
 
@@ -69,6 +80,11 @@ namespace SistemaTotem
             FormVest1 Enem = new FormVest1();
             Enem.Show();
             this.Hide();
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

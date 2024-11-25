@@ -15,6 +15,15 @@ namespace SistemaTotem
         public FormMembrosGremio()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        private void CentralizarPainel(Panel painel)
+        {
+            int x = (this.ClientSize.Width - painel.Width) / 2;
+            int y = (this.ClientSize.Height - painel.Height) / 2;
+
+            painel.Location = new Point(x, y);
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -101,6 +110,21 @@ namespace SistemaTotem
         }
 
         private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormMembrosGremio_Load(object sender, EventArgs e)
+        {
+            CentralizarPainel(panel2);
+        }
+
+        private void PainelGremio_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }

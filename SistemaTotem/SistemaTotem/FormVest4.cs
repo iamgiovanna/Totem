@@ -15,10 +15,19 @@ namespace SistemaTotem
         public FormVest4()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
+        }
+        private void CentralizarPainel(Panel painel)
+        {
+            int x = (this.ClientSize.Width - painel.Width) / 2;
+            int y = (this.ClientSize.Height - painel.Height) / 2;
+
+            painel.Location = new Point(x, y);
         }
 
         private void FormVest4_Load(object sender, EventArgs e)
         {
+            CentralizarPainel(flowLayoutPanel2);
 
         }
 
