@@ -134,7 +134,7 @@
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(569, 302);
+            this.button6.Location = new System.Drawing.Point(596, 302);
             this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(163, 132);
@@ -146,7 +146,7 @@
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(317, 302);
+            this.button5.Location = new System.Drawing.Point(335, 302);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(163, 132);
@@ -183,7 +183,7 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(569, 31);
+            this.button2.Location = new System.Drawing.Point(600, 31);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(163, 132);
@@ -195,7 +195,7 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(301, 32);
+            this.button1.Location = new System.Drawing.Point(332, 32);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(163, 132);
@@ -207,22 +207,22 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label17.Location = new System.Drawing.Point(853, 503);
+            this.label17.Location = new System.Drawing.Point(853, 496);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(183, 28);
+            this.label17.Size = new System.Drawing.Size(93, 28);
             this.label17.TabIndex = 72;
-            this.label17.Text = "Nome do aluno:";
+            this.label17.Text = "Ciclano";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold);
             this.label18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label18.Location = new System.Drawing.Point(853, 462);
+            this.label18.Location = new System.Drawing.Point(854, 455);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(98, 28);
+            this.label18.Size = new System.Drawing.Size(138, 28);
             this.label18.TabIndex = 71;
-            this.label18.Text = "Função:";
+            this.label18.Text = "Coord. M.A.";
             this.label18.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // label13
@@ -230,22 +230,22 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label13.Location = new System.Drawing.Point(587, 503);
+            this.label13.Location = new System.Drawing.Point(595, 503);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(183, 28);
+            this.label13.Size = new System.Drawing.Size(100, 35);
             this.label13.TabIndex = 68;
-            this.label13.Text = "Nome do aluno:";
+            this.label13.Text = "Henry";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold);
             this.label14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label14.Location = new System.Drawing.Point(587, 462);
+            this.label14.Location = new System.Drawing.Point(595, 455);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(98, 28);
+            this.label14.Size = new System.Drawing.Size(144, 28);
             this.label14.TabIndex = 67;
-            this.label14.Text = "Função:";
+            this.label14.Text = "Diretor R.A.";
             this.label14.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // label11
@@ -253,22 +253,22 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label11.Location = new System.Drawing.Point(312, 503);
+            this.label11.Location = new System.Drawing.Point(350, 503);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(183, 28);
+            this.label11.Size = new System.Drawing.Size(103, 28);
             this.label11.TabIndex = 66;
-            this.label11.Text = "Nome do aluno:";
+            this.label11.Text = "Amanda";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold);
             this.label12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label12.Location = new System.Drawing.Point(312, 462);
+            this.label12.Location = new System.Drawing.Point(345, 455);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(98, 28);
+            this.label12.Size = new System.Drawing.Size(108, 28);
             this.label12.TabIndex = 65;
-            this.label12.Text = "Função:";
+            this.label12.Text = "Suplente";
             this.label12.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // label9
@@ -276,22 +276,22 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label9.Location = new System.Drawing.Point(36, 503);
+            this.label9.Location = new System.Drawing.Point(38, 503);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(183, 28);
+            this.label9.Size = new System.Drawing.Size(92, 28);
             this.label9.TabIndex = 64;
-            this.label9.Text = "Nome do aluno:";
+            this.label9.Text = "Marcos";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label10.Location = new System.Drawing.Point(36, 462);
+            this.label10.Location = new System.Drawing.Point(30, 455);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(98, 28);
+            this.label10.Size = new System.Drawing.Size(204, 28);
             this.label10.TabIndex = 63;
-            this.label10.Text = "Função:";
+            this.label10.Text = "Coord. de Cultura";
             this.label10.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // label7
@@ -301,9 +301,9 @@
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label7.Location = new System.Drawing.Point(36, 230);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(183, 28);
+            this.label7.Size = new System.Drawing.Size(78, 35);
             this.label7.TabIndex = 62;
-            this.label7.Text = "Nome do aluno:";
+            this.label7.Text = "Julia";
             // 
             // label8
             // 
@@ -312,32 +312,33 @@
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label8.Location = new System.Drawing.Point(36, 188);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(98, 28);
+            this.label8.Size = new System.Drawing.Size(194, 35);
             this.label8.TabIndex = 61;
-            this.label8.Text = "Função:";
+            this.label8.Text = "Líder grêmio";
             this.label8.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(296, 230);
+            this.label5.Location = new System.Drawing.Point(327, 230);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(183, 28);
+            this.label5.Size = new System.Drawing.Size(77, 28);
             this.label5.TabIndex = 60;
-            this.label5.Text = "Nome do aluno:";
+            this.label5.Text = "Maria";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(296, 188);
+            this.label6.Location = new System.Drawing.Point(327, 188);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 28);
+            this.label6.Size = new System.Drawing.Size(120, 28);
             this.label6.TabIndex = 59;
-            this.label6.Text = "Função:";
+            this.label6.Text = "Vice-líder";
             this.label6.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // label1
@@ -347,9 +348,10 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(853, 230);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 28);
+            this.label1.Size = new System.Drawing.Size(89, 35);
             this.label1.TabIndex = 56;
-            this.label1.Text = "Nome do aluno:";
+            this.label1.Text = "Lucia";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // label2
             // 
@@ -358,9 +360,9 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(853, 188);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 28);
+            this.label2.Size = new System.Drawing.Size(188, 35);
             this.label2.TabIndex = 55;
-            this.label2.Text = "Função:";
+            this.label2.Text = "Coord. Geral";
             this.label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // LabelNome3
@@ -368,22 +370,22 @@
             this.LabelNome3.AutoSize = true;
             this.LabelNome3.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelNome3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.LabelNome3.Location = new System.Drawing.Point(563, 225);
+            this.LabelNome3.Location = new System.Drawing.Point(594, 225);
             this.LabelNome3.Name = "LabelNome3";
-            this.LabelNome3.Size = new System.Drawing.Size(183, 28);
+            this.LabelNome3.Size = new System.Drawing.Size(61, 28);
             this.LabelNome3.TabIndex = 15;
-            this.LabelNome3.Text = "Nome do aluno:";
+            this.LabelNome3.Text = "João";
             // 
             // LabelFuncao3
             // 
             this.LabelFuncao3.AutoSize = true;
             this.LabelFuncao3.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold);
             this.LabelFuncao3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.LabelFuncao3.Location = new System.Drawing.Point(564, 188);
+            this.LabelFuncao3.Location = new System.Drawing.Point(595, 188);
             this.LabelFuncao3.Name = "LabelFuncao3";
-            this.LabelFuncao3.Size = new System.Drawing.Size(91, 28);
+            this.LabelFuncao3.Size = new System.Drawing.Size(134, 28);
             this.LabelFuncao3.TabIndex = 14;
-            this.LabelFuncao3.Text = "Função";
+            this.LabelFuncao3.Text = "Tesoureiro";
             this.LabelFuncao3.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // Foto1
@@ -442,7 +444,7 @@
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1647, 105);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1622, 105);
             this.flowLayoutPanel1.TabIndex = 75;
             // 
             // panel1
@@ -460,7 +462,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1647, 796);
+            this.ClientSize = new System.Drawing.Size(1622, 796);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

@@ -56,7 +56,7 @@
             this.BtnVoltar.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVoltar.ForeColor = System.Drawing.Color.White;
             this.BtnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("BtnVoltar.Image")));
-            this.BtnVoltar.Location = new System.Drawing.Point(313, 11);
+            this.BtnVoltar.Location = new System.Drawing.Point(339, 11);
             this.BtnVoltar.Margin = new System.Windows.Forms.Padding(5);
             this.BtnVoltar.Name = "BtnVoltar";
             this.BtnVoltar.Size = new System.Drawing.Size(75, 74);
@@ -69,7 +69,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label10.Location = new System.Drawing.Point(963, 33);
+            this.label10.Location = new System.Drawing.Point(837, 21);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(177, 40);

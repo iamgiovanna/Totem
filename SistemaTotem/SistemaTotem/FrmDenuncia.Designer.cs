@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDenuncia));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.BtnTelaInicial = new System.Windows.Forms.Button();
             this.PainelDenuncia = new System.Windows.Forms.Panel();
             this.LabelDenuncia3 = new System.Windows.Forms.Label();
             this.LabelDenuncia2 = new System.Windows.Forms.Label();
             this.LabelDenuncia1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2.SuspendLayout();
             this.PainelDenuncia.SuspendLayout();
@@ -56,6 +56,18 @@
             this.panel2.Size = new System.Drawing.Size(1630, 109);
             this.panel2.TabIndex = 77;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(652, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(417, 40);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Como fazer uma denúncia\r\n";
             // 
             // BtnTelaInicial
             // 
@@ -128,20 +140,8 @@
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1647, 117);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1622, 117);
             this.flowLayoutPanel1.TabIndex = 78;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(652, 30);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(417, 40);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Como fazer uma denúncia\r\n";
             // 
             // flowLayoutPanel2
             // 
@@ -159,7 +159,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1647, 796);
+            this.ClientSize = new System.Drawing.Size(1622, 796);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.flowLayoutPanel1);
             this.ForeColor = System.Drawing.Color.CornflowerBlue;

@@ -53,7 +53,7 @@
             this.btnVoltar.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVoltar.ForeColor = System.Drawing.Color.White;
             this.btnVoltar.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltar.Image")));
-            this.btnVoltar.Location = new System.Drawing.Point(342, 27);
+            this.btnVoltar.Location = new System.Drawing.Point(230, 20);
             this.btnVoltar.Margin = new System.Windows.Forms.Padding(5);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(69, 66);
@@ -89,7 +89,7 @@
             this.BtnVest4.Location = new System.Drawing.Point(856, 107);
             this.BtnVest4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnVest4.Name = "BtnVest4";
-            this.BtnVest4.Size = new System.Drawing.Size(311, 139);
+            this.BtnVest4.Size = new System.Drawing.Size(313, 157);
             this.BtnVest4.TabIndex = 5;
             this.BtnVest4.UseVisualStyleBackColor = true;
             this.BtnVest4.Click += new System.EventHandler(this.BtnVest4_Click);
@@ -103,7 +103,7 @@
             this.BtnVest3.Location = new System.Drawing.Point(74, 107);
             this.BtnVest3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnVest3.Name = "BtnVest3";
-            this.BtnVest3.Size = new System.Drawing.Size(311, 139);
+            this.BtnVest3.Size = new System.Drawing.Size(311, 157);
             this.BtnVest3.TabIndex = 4;
             this.BtnVest3.UseVisualStyleBackColor = true;
             this.BtnVest3.Click += new System.EventHandler(this.BtnVest3_Click);
@@ -114,7 +114,7 @@
             this.BtnVest1.Location = new System.Drawing.Point(465, 107);
             this.BtnVest1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnVest1.Name = "BtnVest1";
-            this.BtnVest1.Size = new System.Drawing.Size(311, 139);
+            this.BtnVest1.Size = new System.Drawing.Size(311, 157);
             this.BtnVest1.TabIndex = 3;
             this.BtnVest1.UseVisualStyleBackColor = true;
             this.BtnVest1.Click += new System.EventHandler(this.BtnVest1_Click);
@@ -124,7 +124,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(625, 33);
+            this.label1.Location = new System.Drawing.Point(519, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(737, 40);
             this.label1.TabIndex = 6;
@@ -150,7 +150,7 @@
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1647, 105);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1622, 105);
             this.flowLayoutPanel2.TabIndex = 77;
             // 
             // flowLayoutPanel1
@@ -167,7 +167,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1647, 796);
+            this.ClientSize = new System.Drawing.Size(1622, 796);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.flowLayoutPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
